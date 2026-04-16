@@ -1,23 +1,11 @@
 # Variáveis de ambiente
-.env
-venv/
+venv
 
 # Python
-__pycache__/
-*.pyc
+__pycache__
 
 # Banco de dados local
-*.db
+banco.db
 
 # Alembic
-alembic/versions/__pycache__/
-
-# IDE
-.vscode/
-
-# Logs
-*.log
-
-# Sistema
-.DS_Store
-Thumbs.db
+alembic
