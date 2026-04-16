@@ -1,11 +1,22 @@
-# Variáveis de ambiente
-venv
+# Ambientes Virtuais
+venv/
+env/
+.env
 
-# Python
-__pycache__
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 
-# Banco de dados local
-banco.db
+# Ferramentas de Banco de Dados e Migrações
+alembic/
+alembic.ini
 
-# Alembic
-alembic
+# IDEs (VS Code / PyCharm)
+.vscode/
+.idea/
+
+# Logs e arquivos temporários
+*.log
+.DS_Store
